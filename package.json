@@ -1,0 +1,20 @@
+{
+  "name": "track-api",
+  "version": "1.0.0",
+  "description": "Track API Backend based on Node, Express communicating with MongoDb database.",
+  "main": "index.js",
+  "author": "ThatTechedGuy",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "argon2": "^0.26.2",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.20"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
